@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	printf("another one\n");
+	printf("a new one");
 	return(0);
 }
