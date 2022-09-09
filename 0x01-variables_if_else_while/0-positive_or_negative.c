@@ -19,12 +19,10 @@ int main(void)
 		printf("%u is negative\n", (n)); 
 
 	} else if (n > 0)
-	{
-		/*if n is positive print n is positive*/
+	{	/*if n is positive print n is positive*/
 		printf("%d is positive\n", (n));
 	} else
-	{	
-		/*onl happens if the prvious conditions dont happen*/
+	{	/*onl happens if the prvious conditions dont happen*/
 		printf("%u is zero\n", (n));
 	}
 
