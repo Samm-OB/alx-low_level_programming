@@ -10,7 +10,7 @@ int _natural(int n)
 {
 	int m = 0;
 
-	for (n = 0; n < 1024)
+	for (n = 0; n < 1024;)
 	{
 		if ((n % 3 == 0) || (n % 5 == 0))
 		{
