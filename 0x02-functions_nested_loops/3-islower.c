@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks if its an alphabet is lower
- * @c - argument used in function
+ * @c: int used for argument of the function
  *
  * Return: 0 (success)
  */
