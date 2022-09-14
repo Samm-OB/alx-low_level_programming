@@ -2,7 +2,7 @@
 
 /**
  * main - prints sum of multiples of 3 and 5 below 1024
- * 
+ *
  * Return: 0(success)
  */
 
@@ -17,8 +17,8 @@ int main(void)
 		{
 			m += n;
 		}
-		_putchar(m);
 	}
+	_putchar(m);
 	_putchar('\n');
 	return (0);
 }
