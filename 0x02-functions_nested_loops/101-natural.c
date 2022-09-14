@@ -2,12 +2,13 @@
 
 /**
  * _natural - prints sum of multiples of 3 and 5 below 1024
- * @n: int used as arguement for the function
+ * 
  * Return: 0(success)
  */
 
-int _natural(int n)
+void _natural(void)
 {
+	int n;
 	int m = 0;
 
 	for (n = 0; n < 1024;)
@@ -16,7 +17,8 @@ int _natural(int n)
 		{
 			m += n;
 		}
+		_putchar(m);
 	}
-	return (m);
 	_putchar('\n');
+	return (0);
 }
