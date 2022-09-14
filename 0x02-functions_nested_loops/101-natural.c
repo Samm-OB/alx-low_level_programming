@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _natural - prints sum of multiples of 3 and 5 below 1024
+ * main - prints sum of multiples of 3 and 5 below 1024
  * 
  * Return: 0(success)
  */
 
-void _natural(void)
+int main(void)
 {
 	int n;
 	int m = 0;
@@ -20,4 +20,5 @@ void _natural(void)
 		_putchar(m);
 	}
 	_putchar('\n');
+	return (0);
 }
