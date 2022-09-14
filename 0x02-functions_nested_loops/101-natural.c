@@ -16,7 +16,8 @@ int _natural(int n)
 		{
 			m += n;
 		}
-		_putchar(m);
+		return (m);
 		_putchar('\n');
+
 	}
 }
