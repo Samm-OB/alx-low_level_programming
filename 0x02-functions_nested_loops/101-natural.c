@@ -20,5 +20,4 @@ void _natural(void)
 		_putchar(m);
 	}
 	_putchar('\n');
-	return (0);
 }
