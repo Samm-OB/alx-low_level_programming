@@ -1,24 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * this should cause an infinite loop
+ * main - this should cause an infinite loop
  *
  * Return: 0 (success)
  */
 
 int main(void)
 {
-	int b;
+	int i;
 
 	printf("Infinite loop incoming :(\n");
 
-	b = 0;
+	i = 0;
 
 	/**
-	 *while(b < 10)
+	 *while(i < 10)
 	 *{
-	 *	putchar(b);
+	 *	putchar(i);
 	 *}
 	 */
 
