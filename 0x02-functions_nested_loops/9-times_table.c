@@ -6,7 +6,7 @@
  * Return: 0 (success)
  */
 
-int times_table(void)
+void times_table(void)
 {
 	int dig, mul, prod;
 
