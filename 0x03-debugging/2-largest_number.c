@@ -1,30 +1,28 @@
 #include "main.h"
 
 /**
- * largest_integer - Entry point to find largest integer
- * @x: first
- * @y: second
- * @z: third
- * code to find largest integer
- *
- * Return: largest integer
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
  */
 
-int largest_integer(int x, int y, int z)
+int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	if (x > y && y > z)
+	if (a > b && b > c)
 	{
-		largest = x;
+		largest = a;
 	}
-	else if (y > x && y > z)
+	else if (b > a && a > c)
 	{
-		largest = y;
+		largest = b;
 	}
 	else
 	{
-		largest = z;
+		largest = c;
 	}
 	return (largest);
 }
