@@ -13,7 +13,7 @@ int times_table(void)
 	for (dig = 0; dig <= 9; dig++)
 	{
 		_putchar('0');
-		for (mul = 0; mul <= 9; mul++)
+		for (mul = 1; mul <= 9; mul++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -26,7 +26,7 @@ int times_table(void)
 			else
 			{
 				_putchar((prod / 10) + '0');
-			putchar((prod % 10) + '0');
+			_putchar((prod % 10) + '0');
 			}
 		}
 		_putchar('\n');
