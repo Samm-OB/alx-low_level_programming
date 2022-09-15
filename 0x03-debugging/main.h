@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-void positive_or_negative(int z);
+void positive_or_negative(int a);
 int largest(int x, int y, int z);
 
 #endif /*MAIN_H*/
