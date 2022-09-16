@@ -2,8 +2,8 @@
 
 /**
  * _isupper - checks for uppercase letters
- * @c - int used to for the arguement of the function
- * Return: 1(success)
+ * @c: int used to for the arguement of the function
+ * Return: 0 (success)
  */
 
 int _isupper(int c)
