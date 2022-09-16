@@ -1,7 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
+/**
+ * MAIN - HEADER
+ * int - prototype int
+ * void prototype void
+ */
 
-int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
