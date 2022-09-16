@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 int _isupper(int c);
@@ -9,4 +9,4 @@ void print_numbers(void);
 voidprint_most_numbers(void);
 void more_numbers(void);
 
-#endif
+#endif /* MAIN_H */
