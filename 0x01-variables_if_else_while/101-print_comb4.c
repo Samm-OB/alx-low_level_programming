@@ -19,17 +19,17 @@ int main(void)
 		{
 			for (c = 2; c <= 9; c++)
 			{
-				if (c > b && b > a)
-				{
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(c + '0');
+			if (c > b && b > a)
+			{
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(c + '0');
 					if (c != 7)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				{
+					putchar(',');
+					putchar(' ');
 				}
+			}
 			}
 		}
 	}
