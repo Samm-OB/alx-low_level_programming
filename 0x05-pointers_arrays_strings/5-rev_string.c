@@ -14,6 +14,6 @@ void rev_string(char *s)
 
 	while (len--)
 	{
-		putchar(*(s));
+		putchar(s + '\n');
 	}
 }
