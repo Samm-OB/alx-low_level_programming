@@ -18,7 +18,7 @@ void puts_half(char *str)
 	}
 	if (i % 2 == 0)
 	{
-		for (tem = i; str[n] != '\0'; i++)
+		for (n = i; str[n] != '\0'; i++)
 		{
 			putchar(str[n]);
 		}
