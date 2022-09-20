@@ -16,5 +16,5 @@ void rev_string(char *s)
 	{
 		putchar(*(s + len));
 	}
-	return (0);
+	putchar(len);
 }
