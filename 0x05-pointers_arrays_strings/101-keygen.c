@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <maths.h>
 
 void randomPasswordGeneration(int n)
 {
@@ -47,4 +48,13 @@ void randomPasswordGeneration(int n)
 			printf("%c", password[i]);
 		}
 	}
+}
+
+int main()
+{
+	int n = 10;
+
+	randomPasswordGeneration(n);
+
+	return (0);
 }
