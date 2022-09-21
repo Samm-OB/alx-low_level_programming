@@ -4,13 +4,13 @@
 /**
  * _strcat - a function that concatenates 2 strings
  * @dest: first parameter
- * @src: source of concatenation
+ * @src:second param
  * Return:  return a string
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int len = 0, 1;
+	int len = 0, i;
 
 	while (dest[len])
 	{
