@@ -20,7 +20,7 @@ char *cap_string(char *a)
 			if ((b == 0 || a[b - 1] == spc[i]) && (a[b] >= 97 && a[b] <= 122))
 			{
 				a[b] = a[b] - 32;
-			i++
+			i++;
 			}
 		}
 		b++;
