@@ -8,6 +8,8 @@
 
 void print_number(int n)
 {
+	int n;
+
 	printf("enter an integer: ")
 	{
 		scanf("%d", &n);
