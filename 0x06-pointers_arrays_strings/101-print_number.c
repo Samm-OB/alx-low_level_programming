@@ -9,8 +9,9 @@
 void print_number(int n)
 {
 	printf("enter an integer: ")
-
-	scanf("%d", &n);
-	_putchar(n);
+	{
+		scanf("%d", &n);
+		_putchar(n);
+	}
 	return (0);
 }
