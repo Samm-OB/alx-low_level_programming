@@ -16,5 +16,4 @@ void print_number(int n)
 	}
 	scanf("%d", &n);
 	_putchar(n);
-	return (0);
 }
