@@ -8,11 +8,18 @@
 
 void print_number(int n)
 {
-	int n = n;
+	int n = num;
 
-	printf("enter an integer: ")
+	if (num < 0)
 	{
+		_putchar(num);
 	}
-	scanf("%d", &n);
-	_putchar(n);
+	else if (num == 0)
+	{
+		_putchar(num);
+	}
+	else
+	{
+		_putchar(num);
+	}
 }
