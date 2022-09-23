@@ -1,5 +1,5 @@
 #include "main.h"
-#include <conio.h>
+#include <stdio.h>>
 
 /**
  * print_number - function to print integer
