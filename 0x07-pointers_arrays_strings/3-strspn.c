@@ -19,10 +19,10 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				break;
 			}
-			if (!accept[b])
-			{
-				break;
-			}
+		}
+		if (!accept[b])
+		{
+			break;
 		}
 	}
 	return (a);
