@@ -7,7 +7,7 @@
  * Return: sqrt of integer
  */
 
-int preFunction(int num , int b)
+int preFunction(int num, int b)
 {
 	if ((b * b) == num)
 	{
