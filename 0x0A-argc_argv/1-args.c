@@ -4,7 +4,7 @@
  * main - prints the number of arguments passed with new line
  *
  * @argv: vector argument
- * @argc: argument count
+ * @args: argument count
  * Return: 0 for success
  */
 
