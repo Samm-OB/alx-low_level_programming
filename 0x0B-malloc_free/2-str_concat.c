@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * str_concat -concatenates 2 strings
+ * str_concat - concatenates 2 strings
  * @s1: pointer to string
  * @s2: pointer to string
  * Return: null for fails or pointer to newly
