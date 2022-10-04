@@ -2,6 +2,10 @@
 #include <stdlib.h>
 
 /**
+ * create_array - creates array and initializes with specific char
+ * @size: size of array
+ * @c: char to initialize array
+ * Return: null if fails or pointer to array
  */
 
 char *create_array(unsigned int size, char c)
@@ -18,7 +22,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < arr; i++)
+	for (i = 0; i < size i++)
 	{
 		arr[i] = c;
 	}
