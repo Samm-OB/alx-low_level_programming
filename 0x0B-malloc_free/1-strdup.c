@@ -9,7 +9,7 @@
 
 char *_strdup(char *str)
 {
-	char nstr;
+	char *nstr;
 	unsigned int len, i;
 
 	if (str == NULL)
@@ -22,7 +22,7 @@ char *_strdup(char *str)
 		len++;
 	}
 	nstr = malloc(sizeof(char) * (len + 1));
-	if (ntsr == NULL)
+	if (nstr == NULL)
 	{
 		return (NULL);
 	}
