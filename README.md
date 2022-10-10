@@ -1,1 +1,1 @@
-readme for pointers arrays and strings
+readerfor c lang
