@@ -1,5 +1,6 @@
 #ifndef ABSO
 #define ABSO
-#define ABS(X) (((X) < (0)) ? (-(x)) : (X))
 
-#endif /* ABS */
+#define ABS(x) (((x) < (0)) ? (-(x)) : (x))
+
+#endif /* ABS(x) */
