@@ -3,7 +3,7 @@
  * @array: array of int
  * @size: no of elements
  * @cmp: pointer to function
- * @Return: index of first element or -1 if none is found
+ * Return: index of first element or -1 if none is found
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
